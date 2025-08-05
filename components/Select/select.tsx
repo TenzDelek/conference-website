@@ -55,7 +55,7 @@ function SelectDropdown({
     }
   }, [selectedOption]);
   return (
-    <div className="relative inline-block w-full">
+    <div className="relative inline-block h-screen w-full">
       <Select
         className={`${dataTest || ''}`}
         styles={customStyles}
